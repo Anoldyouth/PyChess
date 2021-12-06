@@ -69,8 +69,7 @@ class GameState:
                                                self.current_castle_rights.wqs, self.current_castle_rights.bqs)]
 
     """
-    Метод 'совершает ход', но этот метод не будет отвечать за рокировку,
-    за продвижение пешек и за съедение пешки 'на проходе'
+    Метод 'совершает ход'.
     """
 
     def make_move(self, move):
